@@ -10,7 +10,7 @@ export const ExperienceComponet = () => {
         const HttpFromApi = async () => {
         const response = await Http('file');
         if (response) {
-            const filteredData = response.filter((item) => item.idUsability === 16);
+            const filteredData = response.filter((item) => item.idUsability === 7);
             setData(filteredData);
             setIsLoading(false);
         }
