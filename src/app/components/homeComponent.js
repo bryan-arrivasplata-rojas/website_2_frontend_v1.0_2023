@@ -33,7 +33,6 @@ export const HomeComponent = () => {
         <div>
             {dataset.map((data) => (
                 <div key={data.idUser}>
-                    <h1>I'm {data.profile.name_profile}</h1>
                     <ul>
                         {datasetSite.map((dataSite) => (
                             <li key={dataSite.idFile}>{dataSite.name_file}</li>

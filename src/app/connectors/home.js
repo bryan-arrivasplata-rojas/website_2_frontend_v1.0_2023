@@ -30,10 +30,6 @@ export const HomeConnectors = () => {
             <div className="d-flex align-items-center justify-content-center">
                 <div className="container-fluid row">
                     <HomeComponent/>
-                    <div className="col">
-                        <button className="btn from-left" onClick={handleAboutClick}>ABOUT ME</button>
-                        <button className="btn from-right" onClick={handlePortafolioClick}>MY WORKS</button>
-                    </div>
                 </div>
             </div>
         </div>
